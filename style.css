@@ -633,13 +633,23 @@ h5 {
   font-weight: 500;
   color: var(--nav-hover-cl);
   line-height: 20px;
-  cursor: pointer;
 }
 
-.footer p:hover {
+
+
+.company p:hover, .social-media p:hover, .get-in-touch p:hover {
   text-decoration: underline;
 }
 
 .footer i {
   font-size: 2rem;
 }
+
+.rights a {
+  color: var(--main-bg-cl);
+}
+
+.rights a:hover {
+  text-decoration: underline;
+}
+
