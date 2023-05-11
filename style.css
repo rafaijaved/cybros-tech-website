@@ -574,6 +574,15 @@ h4 {
   justify-content: space-evenly;
 }
 
+.contact-us-buttons a {
+  color: var(--main-bg-cl);
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+
 .contact-us-buttons div {
   display: flex;
   align-items: center;
@@ -610,6 +619,12 @@ h4 {
   color: #ffffff;
 }
 
+.button1:hover a,
+.button2:hover a,
+.button3:hover a {
+  color: #ffffff;
+}
+
 /* FOOTER */
 
 .footer {
@@ -628,6 +643,13 @@ h5 {
   margin-top: 0;
 }
 
+.footer a {
+  font-size: var(--size-200);
+  font-weight: 500;
+  color: var(--nav-hover-cl);
+  line-height: 20px;
+}
+
 .footer p {
   font-size: var(--size-200);
   font-weight: 500;
@@ -635,15 +657,18 @@ h5 {
   line-height: 20px;
 }
 
-.company p,
-.social-media p,
-.get-in-touch p {
+.company a,
+.social-media a,
+.get-in-touch a {
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
 }
 
-.company p:hover,
-.social-media p:hover,
-.get-in-touch p:hover {
+.company a:hover,
+.social-media a:hover,
+.get-in-touch a:hover {
   text-decoration: underline;
 }
 
