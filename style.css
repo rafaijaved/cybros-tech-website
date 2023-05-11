@@ -643,13 +643,7 @@ h5 {
   margin-top: 0;
 }
 
-.footer a {
-  font-size: var(--size-200);
-  font-weight: 500;
-  color: var(--nav-hover-cl);
-  line-height: 20px;
-}
-
+.footer a,
 .footer p {
   font-size: var(--size-200);
   font-weight: 500;
