@@ -635,9 +635,15 @@ h5 {
   line-height: 20px;
 }
 
+.company p,
+.social-media p,
+.get-in-touch p {
+  cursor: pointer;
+}
 
-
-.company p:hover, .social-media p:hover, .get-in-touch p:hover {
+.company p:hover,
+.social-media p:hover,
+.get-in-touch p:hover {
   text-decoration: underline;
 }
 
@@ -652,4 +658,3 @@ h5 {
 .rights a:hover {
   text-decoration: underline;
 }
-
