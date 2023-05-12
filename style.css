@@ -213,6 +213,7 @@ h1 {
   height: 54px;
   width: 54px;
   border-radius: 50%;
+  cursor: pointer;
   border: none;
   background-color: var(--accent-bg-cl);
   -webkit-border-radius: 50%;
