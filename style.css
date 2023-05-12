@@ -18,6 +18,7 @@
   --size-200: 1.25rem;
   --size-300: 1.5rem;
   --size-325: 2rem;
+  --size-335: 2.5rem;
   --size-350: 3rem;
   --size-375: 4rem;
   --size-400: 5rem;
@@ -1058,6 +1059,10 @@ h5 {
     padding-top: 0;
   }
 
+  .navlogo img {
+    width: 130px;
+  }
+
   .navlist {
     display: flex;
     flex-direction: column;
@@ -1142,13 +1147,32 @@ h5 {
 
   h1 {
     font-size: var(--size-350);
-    margin-top: 20px;
+    margin-top: 60px;
   }
 
   .hero-section p {
     font-size: var(--size-100);
     width: 90%;
-    margin-top: 40px;
+    margin-top: 20px;
+  }
+
+  .hero-section button {
+    padding: 14px 40px;
+    margin-top: 20px;
+  }
+
+  .hero-section-icon {
+    margin-top: 20px;
+  }
+
+  .hero-section-icon i {
+    font-size: 1.3rem;
+  }
+
+  .hero-section-icon li {
+    height: 45px;
+    width: 45px;
+    margin-inline: 5px;
   }
 
   /* LIST SECTION  */
@@ -1158,23 +1182,25 @@ h5 {
   }
 
   .heading-list-section {
-    font-size: var(--size-150);
-    width: 150px;
+    font-size: var(--size-100);
+    width: 130px;
   }
 
   h2 {
-    font-size: var(--size-350);
+    font-size: var(--size-335);
     width: 90%;
-    line-height: 50px;
+    line-height: 45px;
+    margin-bottom: 25px;
   }
 
   .list-paragraph {
-    font-size: var(--size-150);
-    width: 80%;
+    font-size: var(--size-100);
+    width: 90%;
   }
 
   .task-list {
-    width: 90%;
+    width: auto;
+    margin-inline: auto;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -1182,7 +1208,7 @@ h5 {
     -o-border-radius: 20px;
     height: auto;
     flex-direction: column;
-    padding: 5px 10px;
+    padding: 20px 10px;
   }
 
   .task-list div {
@@ -1196,7 +1222,7 @@ h5 {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    margin: 5px 10px;
+    margin: 10px 10px;
   }
 
   .task-list div:hover {
@@ -1225,19 +1251,24 @@ h5 {
   /* WHY US SECTION  */
 
   .why-us-section {
-    width: 95%;
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
   }
 
   .why-us-heading {
-    font-size: var(--size-150);
-    width: 120px;
+    font-size: var(--size-100);
+    width: 100px;
     margin-top: 0;
   }
 
   h3 {
-    font-size: var(--size-350);
-    width: 90%;
-    line-height: 50px;
+    font-size: var(--size-335);
+    width: 100%;
+    line-height: 45px;
     margin: 20px auto;
     margin-bottom: 0;
   }
@@ -1280,10 +1311,15 @@ h5 {
 
   .contact-us-section {
     width: 95%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
   }
 
   .contact-us-border {
-    margin-inline: 20px;
+    margin-inline: 30px;
     padding-bottom: 30px;
   }
 
@@ -1306,6 +1342,7 @@ h5 {
     height: 300px;
     line-height: 300px;
     margin-bottom: 30px;
+    font-size: 5rem;
   }
 
   .contact-us-buttons {
