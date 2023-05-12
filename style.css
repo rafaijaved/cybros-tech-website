@@ -1049,6 +1049,9 @@ h5 {
 /* MOBILE SCREENS  */
 
 @media screen and (max-width: 767px) {
+  header {
+    background-image: none;
+  }
   nav {
     width: 90%;
     padding-top: 0;
