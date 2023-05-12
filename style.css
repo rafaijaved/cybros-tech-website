@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
 
 :root {
-  /* colors */
+  /* < ----------------> COLORS  <---------------- >*/
 
   --main-bg-cl: #101010;
   --accent-bg-cl: #333333;
@@ -10,7 +10,7 @@
   --nav-hover-cl: #6f6f6f;
   --button-hover-cl: #ffffff;
 
-  /* sizes */
+  /* < ---------------- > SIZES < ---------------- > */
 
   --size-50: 0.9rem;
   --size-100: 1rem;
@@ -26,7 +26,7 @@
   --size-600: 8rem;
 }
 
-/* general styling */
+/* < ---------------- > GENERAL STYLING < ---------------- > */
 
 html,
 body {
@@ -51,7 +51,7 @@ button {
   font-family: "Montserrat", sans-serif;
 }
 
-/* nav bar */
+/* < ---------------- > NAV BAR < ---------------- > */
 
 .navbar-toggle,
 .close-toggle {
@@ -147,7 +147,7 @@ nav {
   box-shadow: inset 200px 0 0 0 var(--main-accent-cl);
 }
 
-/* hero section */
+/* < ---------------- > HERO SECTION < ---------------- > */
 
 .hero-section {
   display: flex;
@@ -236,7 +236,7 @@ h1 {
   font-size: 1.7rem;
 }
 
-/* list section */
+/* < ---------------- > LIST SECTION < ---------------- > */
 
 .list-section {
   width: 100%;
@@ -281,7 +281,7 @@ h2 {
   font-weight: 500;
 }
 
-/* list designs */
+/* < ---------------- > LIST DESIGNS < ---------------- > */
 
 .task-list {
   width: 90%;
@@ -354,7 +354,7 @@ h2 {
   margin: 10px auto;
 }
 
-/* SCROLLING TEXT */
+/* < ---------------- > SCROLLING TEXT < ---------------- > */
 
 .scroll-left,
 .scroll-right {
@@ -429,7 +429,7 @@ h2 {
   }
 }
 
-/*  Why us section */
+/* < ---------------- >  Why us section < ---------------- > */
 
 .why-us-section {
   width: 90%;
@@ -513,7 +513,7 @@ h3 {
   grid-column: span 2;
 }
 
-/* CONTACT US SCROLL */
+/* < ---------------- > CONTACT US SCROLL < ---------------- > */
 
 .contact-us-scroll {
   display: flex;
@@ -634,7 +634,7 @@ h4 {
   color: #ffffff;
 }
 
-/* FOOTER */
+/* < ---------------- > FOOTER < ---------------- > */
 
 .footer {
   display: flex;
@@ -687,9 +687,9 @@ h5 {
   text-decoration: underline;
 }
 
-/* MEDIA QUERIES */
+/*< ---------------- > MEDIA QUERIES < ---------------- > */
 
-/* LAPTOP LARGE  */
+/* < ---------------- > LAPTOP LARGE < ---------------- > */
 
 @media screen and (min-width: 1440px) and (max-width: 2559px) {
   h1 {
@@ -701,7 +701,7 @@ h5 {
   }
 }
 
-/* LAPTOP SMALL  */
+/* < ---------------- > LAPTOP SMALL < ---------------- >  */
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   /* NAV BAR  */
@@ -723,7 +723,7 @@ h5 {
     padding: 17px;
   }
 
-  /* HERO SECTION  */
+  /*< ---------------- > HERO SECTION < ---------------- > */
 
   h1 {
     font-size: var(--size-400);
@@ -751,7 +751,7 @@ h5 {
     width: 42px;
   }
 
-  /* LIST SECTION  */
+  /* < ---------------- > LIST SECTION < ---------------- >  */
 
   h2 {
     font-size: var(--size-375);
@@ -787,7 +787,7 @@ h5 {
     width: 170px;
   }
 
-  /* WHY US SECTION  */
+  /* < ---------------- > WHY US SECTION < ---------------- > */
 
   .why-us-section {
     width: 95%;
@@ -807,7 +807,7 @@ h5 {
     font-size: var(--size-100);
   }
 
-  /* CONTACT US SECTION  */
+  /* < ---------------- > CONTACT US SECTION < ---------------- > */
 
   .contact-us-section {
     width: 95%;
@@ -828,7 +828,7 @@ h5 {
     height: 70px;
   }
 
-  /* FOOTER  */
+  /* < ---------------- > FOOTER < ---------------- > */
 
   h5 {
     font-size: var(--size-300);
@@ -840,10 +840,10 @@ h5 {
   }
 }
 
-/* TABLET SCREENS  */
+/* < ---------------- > TABLET SCREENS < ---------------- > */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* NAV BAR  */
+  /* < ---------------- > NAV BAR < ---------------- > */
 
   nav {
     width: 95%;
@@ -871,7 +871,7 @@ h5 {
     padding: 18px;
   }
 
-  /* HERO SECTION  */
+  /* < ---------------- > HERO SECTION < ---------------- >  */
 
   h1 {
     font-size: var(--size-375);
@@ -898,7 +898,7 @@ h5 {
     font-size: var(--size-150);
   }
 
-  /* LIST SECTION  */
+  /* < ---------------- > LIST SECTION < ---------------- >  */
 
   .list-section {
     padding-top: 40px;
@@ -956,7 +956,7 @@ h5 {
     margin-bottom: -260px;
   }
 
-  /* WHT US SECTION  */
+  /*  < ---------------- > WHY US SECTION < ---------------- > */
 
   .why-us-section {
     width: 96%;
@@ -999,7 +999,7 @@ h5 {
     margin: -200px auto;
   }
 
-  /* CONTACT US SECTION  */
+  /* < ---------------- > CONTACT US SECTION < ---------------- > */
 
   .contact-us-section {
     width: 96%;
@@ -1031,7 +1031,7 @@ h5 {
     height: 60px;
   }
 
-  /* FOOTER  */
+  /* < ---------------- > FOOTER < ---------------- > */
 
   .footer {
     width: 95%;
@@ -1048,9 +1048,11 @@ h5 {
   }
 }
 
-/* MOBILE SCREENS  */
+/* < ---------------- > MOBILE SCREENS < ---------------- >  */
 
 @media screen and (max-width: 767px) {
+  /* < ---------------- > NAV BAR < ---------------- > */
+
   header {
     background-image: none;
   }
@@ -1139,7 +1141,7 @@ h5 {
     -o-transform: translateY(0);
   }
 
-  /* HERO SECTION  */
+  /* < ---------------- > HERO SECTION < ---------------- > */
 
   .hero-section {
     width: 90%;
@@ -1175,7 +1177,7 @@ h5 {
     margin-inline: 5px;
   }
 
-  /* LIST SECTION  */
+  /* < ---------------- > LIST SECTION < ---------------- > */
 
   .list-section {
     padding-top: 40px;
@@ -1248,7 +1250,7 @@ h5 {
     margin-bottom: -270px;
   }
 
-  /* WHY US SECTION  */
+  /* < ---------------- > WHY US SECTION < ---------------- > */
 
   .why-us-section {
     width: 100%;
@@ -1307,7 +1309,7 @@ h5 {
     margin-top: -250px;
   }
 
-  /* CONTACT US SECTION  */
+  /* < ---------------- > CONTACT US SECTION < ---------------- >  */
 
   .contact-us-section {
     width: 95%;
@@ -1365,7 +1367,7 @@ h5 {
     font-size: var(--size-100);
   }
 
-  /* FOOTER  */
+  /* < ---------------- > FOOTER < ---------------- >  */
 
   .footer {
     display: grid;
