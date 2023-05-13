@@ -46,16 +46,18 @@
       <!-- NAV BAR -->
 
       <nav>
-        <a class="navlogo" href="#"
-          ><img src="assets/logo/logo.png" alt="logo"
-        /></a>
-        <ul class="navlist">
+        <a class="navlogo" href="index.html"
+          ><img src="assets/logo/logo.png" alt="logo"/></a>
+        <a href="#toggle" class="navbar-toggle"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></a>
+        <ul class="navlist" id="toggle">
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html#what-we-do">Services</a></li>
-          <li><a href="index.html#why-us">Why Us</a></li>
-          <li><a href="index.html">Our Work</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="">Our Work</a></li>
+          <li><a href="contact-us.html" target="_blank" class="mobile-contact-us-button">Contact Us</a></li>
+          <a href="#" class="close-toggle"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></a>
         </ul>
-        <a href="#"><button class="navbutton">Contact Us</button></a>
+        <a href="contact-us.html" target="_blank"><button class="navbutton">Contact Us</button></a>
       </nav>
 
         <!-- PROJECT HEADING   -->
@@ -68,7 +70,7 @@
 
     <form action="https://formsubmit.co/" method="post" name="cybros-form" id="contact-form">
       <div class="info-area">
-        <label for="name">Name</label>
+        <label class="name" for="name">Name</label>
         <input type="text" name="name" id="name" placeholder="Adam">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="adam@example.com">
