@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+:root {
+  /* < ---------------- > colors < ---------------- > */
+
+  --main-bg-cl: #101010;
+  --accent-bg-cl: #333333;
+  --main-accent-cl: #fca311;
+  --heading-bg-cl: #242424;
+  --nav-hover-cl: #6f6f6f;
+  --button-hover-cl: #ffffff;
+  --contact-bg-cl: #f8f8f8;
+
+  /* sizes */
+
+  --size-100: 1rem;
+  --size-150: 1.2rem;
+  --size-200: 1.25rem;
+  --size-300: 1.5rem;
+  --size-325: 2rem;
+  --size-350: 3rem;
+  --size-400: 5rem;
+  --size-500: 6.5rem;
+  --size-600: 8rem;
+}
+
+/* general styling */
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* nav bar */
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-bg-cl);
+  background-image: url(https://media.giphy.com/media/sWFYgYFjHGugleQdO7/giphy.gif);
+  background-blend-mode: soft-light;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  padding-top: 20px;
+  margin-inline: auto;
+}
+
+.navlogo img {
+  width: 170px;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background-color: var(--accent-bg-cl);
+  height: 65px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  font-weight: 500;
+  margin-inline: 20px;
+}
+
+.navlist li {
+  list-style: none;
+  cursor: pointer;
+  padding: 21px 30px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  -moz-transition: ease-in-out 0.3s;
+  -ms-transition: ease-in-out 0.3s;
+  -o-transition: ease-in-out 0.3s;
+}
+
+.navlist li:hover {
+  background-color: #6f6f6f;
+}
+
+.navlist li a {
+  color: var(--button-hover-cl);
+  display: block;
+}
+
+.navbutton {
+  font-size: var(--size-150);
+  font-weight: 500;
+  width: 150px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  margin-top: 0;
+  color: #ffffff;
+  background-color: var(--accent-bg-cl);
+  border: none;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 var(--main-accent-cl);
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+
+.navbutton:hover {
+  color: #222222;
+  box-shadow: inset 200px 0 0 0 var(--main-accent-cl);
+}
+
+/* PROJECT HEADING  */
+
+.header {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+.header p {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  font-size: var(--size-200);
+  font-weight: 500;
+  margin-inline: auto;
+  background-color: var(--main-accent-cl);
+  color: var(--heading-bg-cl);
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
+h1 {
+  font-size: var(--size-400);
+  width: 60%;
+  margin-inline: auto;
+}
+
+/* FORM  */
+
+form {
+  width: 80%;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  margin-inline: auto;
+  margin-top: -100px;
+  background-color: var(--contact-bg-cl);
+  margin-bottom: 100px;
+}
+
+.info-area {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  margin-inline: auto;
+  padding: 50px;
+}
+
+label {
+  color: var(--main-bg-cl);
+  font-size: var(--size-325);
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+select {
+  width: 700px;
+  border: none;
+  height: 30px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  padding: 20px;
+  font-size: var(--size-200);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 16px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--contact-bg-cl);
+}
+
+select {
+  height: 70px;
+  color: var(--nav-hover-cl);
+}
+
+button {
+  border: none;
+  color: #ffffff;
+  font-size: var(--size-200);
+  background-color: var(--heading-bg-cl);
+  height: 60px;
+  width: 130px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  margin-inline: auto;
+  margin-top: 60px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 var(--main-accent-cl);
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+
+button:hover {
+  box-shadow: inset 150px 0 0 0 var(--main-accent-cl);
+  color: var(--main-bg-cl);
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 85%;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+
+h5 {
+  font-size: var(--size-325);
+  color: var(--heading-bg-cl);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer a {
+  font-size: var(--size-200);
+  font-weight: 500;
+  color: var(--nav-hover-cl);
+  line-height: 20px;
+}
+
+.footer p {
+  font-size: var(--size-200);
+  font-weight: 500;
+  color: var(--nav-hover-cl);
+  line-height: 20px;
+}
+
+.company a,
+.social-media a,
+.get-in-touch a {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.company a:hover,
+.social-media a:hover,
+.get-in-touch a:hover {
+  text-decoration: underline;
+}
+
+.footer i {
+  font-size: 2rem;
+}
+
+.rights a {
+  color: var(--main-bg-cl);
+}
+
+.rights a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*< ---------------- > MEDIA QUERIES < ---------------- > */
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  /* NAV BAR  */
+
+  nav {
+    width: 90%;
+  }
+
+  .navlogo img {
+    width: 130px;
+  }
+
+  .navlist {
+    height: 50px;
+  }
+
+  .navbutton {
+    font-size: var(--size-100);
+    padding: 17px;
+    height: 50px;
+  }
+
+
+
+}
