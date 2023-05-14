@@ -1,6 +1,7 @@
-# cybros-tech-website
-Website for Cybros Technology
+# Website For Cybros Technology
 
-I created this website using pure html and css, no framework or java script was used.
+# My First big project as a Front-End Developer.
 
-[Live Demo](https://rafaijaved.github.io/cybros-tech-website/index.html) 
+Responsive website using pure html and css. No JavaScrip or any frameworks used.
+
+# [Live Demo](https://rafaijaved.github.io/cybros-tech-website/index.html) 
