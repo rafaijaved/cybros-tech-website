@@ -1374,8 +1374,9 @@ h5 {
   }
 
   h1 {
-    font-size: var(--size-350);
-    margin-top: 60px;
+    font-size: var(--size-335);
+    margin-top: 30px;
+    line-height: 45px;
   }
 
   .hero-section p {
