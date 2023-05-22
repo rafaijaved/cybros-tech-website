@@ -12,6 +12,7 @@
 
   /* < ---------------- > SIZES < ---------------- > */
 
+  --size-25: 0.7rem;
   --size-50: 0.9rem;
   --size-100: 1rem;
   --size-150: 1.2rem;
@@ -536,6 +537,7 @@ h3 {
   background-size: cover;
   margin-inline: auto;
   margin-bottom: 100px;
+  margin-top: -80px;
   border-radius: 60px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
@@ -561,6 +563,7 @@ h3 {
   font-weight: 800;
   margin-bottom: 10px;
   padding-top: 80px;
+  margin-top: 0;
 }
 
 .testimonials-heading p {
@@ -629,7 +632,6 @@ h3 {
   align-items: center;
   overflow: hidden;
   margin: -150px auto;
-  z-index: -1;
 }
 
 /* CONTACT US */
@@ -916,6 +918,53 @@ h5 {
     font-size: var(--size-100);
   }
 
+  /* < ---------------- > TESTIMONIALS SECTION < ---------------- > */
+
+  .testimonial-section {
+    width: 90%;
+    margin-inline: auto;
+    margin-top: -100px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .testimonials-heading h6 {
+    font-size: var(--size-375);
+    margin-top: 0;
+  }
+
+  .testimonials-heading p {
+    font-size: var(--size-200);
+    width: 80%;
+  }
+
+  .card-description {
+    height: 200px;
+  }
+
+  .card-description img {
+    width: 40px;
+  }
+
+  .text-body {
+    font-size: var(--size-100);
+    margin-top: 10px;
+  }
+
+  .img-header img {
+    width: 50px;
+  }
+
+  .text-title {
+    font-size: var(--size-100);
+  }
+
+  .client-position {
+    font-size: var(--size-25);
+  }
+
   /* < ---------------- > CONTACT US SECTION < ---------------- > */
 
   .contact-us-section {
@@ -1055,14 +1104,20 @@ h5 {
     width: 140px;
   }
 
+  /*  < ---------------- > SCROLL SECTION < ---------------- > */
+
   .scroll-left,
   .scroll-right {
-    margin: -120px auto;
+    margin: -50px auto;
+  }
+
+  .scroll-text p {
+    font-size: var(--size-400);
   }
 
   .scroll-right {
-    margin-top: -300px;
-    margin-bottom: -260px;
+    margin-top: -180px;
+    margin-bottom: -220px;
   }
 
   /*  < ---------------- > WHY US SECTION < ---------------- > */
@@ -1104,11 +1159,65 @@ h5 {
     margin-top: 0;
   }
 
-  .contact-us-scroll {
-    margin: -200px auto;
+  /* < ---------------- > TESTIMONIALS SECTION < ---------------- > */
+
+  .testimonial-section {
+    width: 90%;
+    margin-inline: auto;
+    margin-top: -100px;
+  }
+
+  .card {
+    width: 230px;
+  }
+
+  .testimonials-heading h6 {
+    font-size: var(--size-350);
+    margin-top: 0;
+  }
+
+  .testimonials-heading p {
+    font-size: var(--size-100);
+    width: 80%;
+    margin-bottom: 80px;
+  }
+
+  .card-description {
+    height: 180px;
+    padding: 20px;
+  }
+
+  .card-description img {
+    width: 30px;
+  }
+
+  .text-body {
+    font-size: var(--size-50);
+    margin-top: 10px;
+  }
+
+  .img-header {
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .img-header img {
+    width: 50px;
+  }
+
+  .text-title {
+    font-size: var(--size-50);
+  }
+
+  .client-position {
+    font-size: var(--size-25);
   }
 
   /* < ---------------- > CONTACT US SECTION < ---------------- > */
+
+  .contact-us-scroll {
+    margin: -100px auto;
+  }
 
   .contact-us-section {
     width: 96%;
@@ -1432,11 +1541,80 @@ h5 {
     -o-border-radius: 30px;
   }
 
-  .contact-us-scroll {
-    margin-top: -200px;
+  /* < ---------------- > TESTIMONIALS SECTION < ---------------- > */
+
+  .testimonial-section {
+    width: auto;
+    margin-inline: auto;
+    margin-top: -100px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+  }
+
+  .testimonial-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 95%;
+    margin-inline: auto;
+  }
+
+  .testimonials-heading h6 {
+    font-size: var(--size-335);
+    margin-top: 0;
+    padding-top: 40px;
+    width: 90%;
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  .testimonials-heading p {
+    font-size: var(--size-50);
+    width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .card-description {
+    height: 130px;
+    padding: 20px;
+  }
+
+  .card-description img {
+    width: 30px;
+  }
+
+  .text-body {
+    font-size: var(--size-50);
+    margin-top: 10px;
+  }
+
+  .img-header {
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .img-header img {
+    width: 50px;
+  }
+
+  .text-title {
+    font-size: var(--size-50);
+  }
+
+  .client-position {
+    font-size: var(--size-25);
   }
 
   /* < ---------------- > CONTACT US SECTION < ---------------- >  */
+
+  .contact-us-scroll {
+    margin-top: -100px;
+  }
 
   .contact-us-section {
     width: 95%;
